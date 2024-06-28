@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <body className="bg-green-50 max-w-full max-h-full ">
+      <body className="bg-green-50 max-w-full max-h-full overflow-hidden ">
         <NavBar />
           {children}
         <Footer />

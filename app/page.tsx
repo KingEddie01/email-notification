@@ -1,16 +1,28 @@
-import Footer from "./Components/Footer";
+import Image from "next/image";
+
 
 
 export default function Home() {
   return (
-    <main className='pt-5'>
+    <main className='pt-16'>
       
-      <div className='flex justify-center items-center pt-20 pb-7'>
-        <img src='/Content.png' alt="logo" />
+      <div className='flex justify-center items-center  pb-7'>
+        <Image 
+        src='/Content.png' 
+        alt="logo"
+        width={189}
+        height={28}
+        
+        />
       </div>
       <div className="bg-white rounded-sm shadow-lg overflow-hidden max-w-xl mx-auto justify-center items-center">
         <div className="flex items-center justify-center py-5">
-          <img src="/emails with media files.png" alt="emailLogo" className="w-25 h-20 mt-5 " />
+          <Image 
+          src="/emails-with-media-files.png" 
+          alt="email-logo"
+          width={112}
+          height={112}
+          />
         </div>
         <div className="px-11 ">
           <h5 className="font-semibold  text-sm text-center pb-7 text-gray-600">A new sign-in on Windows</h5>
