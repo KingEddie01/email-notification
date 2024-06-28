@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import Login from '../notifications/page';
+import Login from '../app/notifications/page';
 
 describe('Login Component', () => {
   test('Check if the main element is present', () => {

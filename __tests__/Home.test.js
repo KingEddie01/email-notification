@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import Home from '.';
+import Home from '../app/page'
 
 describe('Home Component', () => {
   test('Check if the main element is present', () => {
