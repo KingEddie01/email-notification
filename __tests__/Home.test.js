@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import Home from '../page';
+import Home from '.';
 
 describe('Home Component', () => {
   test('Check if the main element is present', () => {
@@ -17,7 +17,7 @@ describe('Home Component', () => {
 
   test('Check if the image with specific alt text is present', () => {
     render(<Home />);
-    const mediaImageElement = screen.getByAltText('emailLogo');
+    const mediaImageElement = screen.getByAltText('email-logo');
     expect(mediaImageElement).toBeInTheDocument();
   });
 
